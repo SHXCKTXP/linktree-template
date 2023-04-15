@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHATSUPP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Saira&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;  
+        }
+
+        body {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-family: 'Saira' , sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: white;
+            text-shadow: 0 0 1px transparent, 0 1px 2px rgb(0 0 0 / 50%);
+        }
+
+        body > img {
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        section {
+            display: grid;
+            place-items: center;
+            position: absolute;
+            inset: 0;
+            overflow-y: scroll;
+        }
+
+        section div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section > div {
+            padding: 100px 10px;
+        }
+
+        section div img {
+            width: 100px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            box-shadow: 0 0 8px lightblue;
+        }
+
+        a {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            border: 1.5px solid white;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            gap: 20px;
+            align-items: center;
+            border-radius: 4px;
+            transition-duration: 200ms;
+        }
+
+        a:hover {
+            background-color: white;
+            color: #0f172a;
+        }
+
+        a i {
+            font-size: 1.3em;
+        }
+
+        .bio {
+            font-size: 12px;
+            backdrop-filter: blur(10px);
+            text-align: justify;
+            color: white;
+            text-shadow: 0 0 5px transparent, 0 1px 2px rgb(0 0 0 / 100%);
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://images.unsplash.com/photo-1476525223214-c31ff100e1ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+        alt="bg" />
+    <section>
+        <div>
+            <img src="https://pbs.twimg.com/profile_images/1643912583009763335/d9jM4Ojj_400x400.jpg" alt="dp"/>
+            <h2>Dr. Clara Martinez</h2>
+            <div>
+                <p class="bio">
+                    Hi, I'm Dr. Clara Martinez, and as a hearing specialist with over 10 years of experience, 
+                    I'm always on the lookout for products that can improve my patients' lives. 
+                    That's why I highly recommend Cortexi Hearing Support and Alpilean. 
+                    Cortexi Hearing Support is an amazing supplement that improves hearing and cognitive function. 
+                    It contains a unique blend of natural ingredients that help support healthy blood flow to the inner ear 
+                    and promote optimal brain function. And the results have been amazing. My patients have experienced improved hearing 
+                    and mental clarity after taking Cortexi. Alpilean is another natural supplement that supports cognitive function 
+                    and helps prevent memory loss. It contains a powerful blend of natural ingredients that help protect brain cells from damage 
+                    and support healthy brain function. My patients have experienced improved memory retention and recall after taking Alpilean. 
+                    As a practicing physician, I'm confident that Cortexi and Alpilean can make a real difference in people's lives. 
+                    I've seen the positive effects firsthand in my patients, and I highly recommend them to anyone looking to improve their hearing 
+                    and cognitive health. So give them a try and experience the difference for yourself.
+                </p>
+            </div>
+            <div>
+                <a href="https://13ff1otvg82t4uf0vez61hdofl.hop.clickbank.net/?tid=4763">
+                    <p>Cortexi</p>
+                </a>
+                <a href="https://3d741jwwqd0ybq48pisai-txad.hop.clickbank.net/?tid=4762">
+                    <p>Alpilean</p>
+                </a>
+            </div>
+        </div>
+    </section>    
+</body>
+</html>
